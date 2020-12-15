@@ -1,0 +1,19 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "AllowedHosts": "*",
+  "MyCustomKey": "Main File",
+  "Position": {
+    "Title": "Editor",
+    "Name": "Kirtesh Arvindbhai Suthar"
+  },
+  "Colour": {
+    "Title": "Mr. Red",
+    "Name": "Green"
+  }
+}
