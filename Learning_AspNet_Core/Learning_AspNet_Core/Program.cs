@@ -20,6 +20,7 @@ namespace Learning_AspNet_Core
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+                    //webBuilder.UseEnvironment("Production");
                     webBuilder.UseStartup<Startup>();
                 });
     }
