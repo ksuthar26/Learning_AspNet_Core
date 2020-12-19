@@ -1,0 +1,22 @@
+﻿<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <h3>@ViewData["Title"]</h3>
+
+    @{
+        var employee = ViewData["Student"] as Learning_AspNet_Core.Models.Student;
+    }
+
+    <div>
+        Name : @employee.Name
+    </div>
+    <div>
+        Section : @employee.Section
+    </div>
+    <div>
+        Branch : @employee.Branch
+    </div>
+</body>
+</html>
